@@ -1,7 +1,7 @@
 # t.php
 ## A tiny php templating framework based on t.js
 
-`t.php` is a simple solution to interpolating values in an html string for insertion into the DOM via `innerHTML`.
+`t.php` is a simple solution to interpolating values in an html string.
 
 ### Features
  * Simple interpolation: `{{=value}}`
