@@ -1,23 +1,4 @@
 <?php
-/*
-		 _     _
-		| |   (_)
-		| |_   _ ___
-		| __| | / __|
-		| |_ _| \__ \
-		 \__(_) |___/
-		     _/ |
-		    |__/
-
-	t.js
-	a micro-templating framework in ~400 bytes gzipped
-
-	@author  Jason Mooberry <jasonmoo@me.com>
-	@license MIT
-	@version 0.1.0
-
-*/
-
     class T {
         private $blockregex = '/\\{\\{(([@!]?)(.+?))\\}\\}(([\\s\\S]+?)(\\{\\{:\\1\\}\\}([\\s\\S]+?))?)\\{\\{\\/\\1\\}\\}/';
         private $valregex = '/\\{\\{([=%])(.+?)\\}\\}/';
@@ -72,7 +53,6 @@
             $temp = "";
             $i;
 
-            //echo $key.' = '.strip_tags(($val.''))."\n";
             if (!$val) {
                 // handle if not
                 if ($meta == '!') {
