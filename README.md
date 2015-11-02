@@ -1,7 +1,7 @@
-# t.js
-## A tiny javascript templating framework in ~400 bytes gzipped
+# t.php
+## A tiny php templating framework based on t.js
 
-`t.js` is a simple solution to interpolating values in an html string for insertion into the DOM via `innerHTML`.
+`t.php` is a simple solution to interpolating values in an html string for insertion into the DOM via `innerHTML`.
 
 ### Features
  * Simple interpolation: `{{=value}}`
@@ -19,10 +19,10 @@
 	var template = new t("<div>Hello {{=name}}</div>");
 	document.body.innerHtml = template.render({name: "World!"});
 
-For more advanced usage check the [`t_test.html`](https://github.com/jasonmoo/t.js/blob/master/t_test.html).
+For more advanced usage check the [`t_test.php`](https://github.com/ramon82/t.php/blob/master/t_test.php).
 
 This software is released under the MIT license.
 
 ___
 
-[Coffeescript version](https://github.com/davidrekow/t.coffee) maintained by [@davidrekow](https://github.com/davidrekow)
+[Javascript version](https://github.com/jasonmoo/t.js) maintained by [@jasonmoo](https://github.com/jasonmoo)
