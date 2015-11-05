@@ -9,6 +9,7 @@
 	p > span { display:inline-block; margin:0 10px; font-weight:bold; }
 </style>
 </head>
+<body>
 <?php
 $template = new T('
     <h1>{{=greeting}}</h1>
@@ -84,6 +85,5 @@ echo $template->parse(
     )
 );
 ?>
-<body>
 </body>
 </html>
