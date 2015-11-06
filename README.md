@@ -17,7 +17,7 @@
 ### How to use
 
 	$template = new T("<div>Hello {{=name}}</div>");
-	echo $template->parse(array('name': 'World!'));
+	echo $template->parse(array('name' => 'World!'));
 
 For more advanced usage check the [`t_test.php`](https://github.com/ramon82/t.php/blob/master/t_test.php).
 
