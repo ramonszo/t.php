@@ -34,7 +34,8 @@
                count($value[$current_index])) {
                 return $this->search_value($index, $value[$current_index]);
             } else {
-                return $value[$current_index];
+                $val = isset($value[$current_index])?$value[$current_index]:'';
+                return str_replace('{{', "{\f{", $val);
             }
         }
 
