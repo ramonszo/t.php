@@ -39,7 +39,7 @@
             }
         }
 
-        public function firstCallback($matches) {
+        public function matchTags($matches) {
             $_ = $matches[0];
             $__ = $matches[1];
             $meta = $matches[2];
@@ -93,7 +93,7 @@
             }
         }
 
-        public function secondCallback($matches) {
+        public function replaceTags($matches) {
             $_ = $matches[0];
             $meta = $matches[1];
             $key = $matches[2];
@@ -108,10 +108,10 @@
         }
 
         private function render($fragment) {
-            $firstCallback = preg_replace_callback($this->blockregex, array($this, "firstCallback"), $fragment);
-            $secondCallback = preg_replace_callback($this->valregex, array($this, "secondCallback"), $firstCallback);
+            $matchTags = preg_replace_callback($this->blockregex, array($this, "matchTags"), $fragment);
+            $replaceTags = preg_replace_callback($this->valregex, array($this, "replaceTags"), $matchTags);
 
-            return $secondCallback;
+            return $replaceTags;
         }
 
         public function parse($obj){
