@@ -12,7 +12,6 @@
  * Object/Array iteration: `{{@object_value}} {{=_key}}:{{=_val}} {{/@object_value}}`
  * Multi-line templates (no removal of newlines required to render)
  * Render the same template multiple times with different data
- * Works in all modern browsers
 
 ### How to use
 
