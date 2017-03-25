@@ -1,5 +1,6 @@
-# t.php
-## A tiny php templating framework based on t.js
+t.php
+====================
+A tiny php templating framework based on t.js
 
 `t.php` is a simple solution to interpolating values in an html string.
 
