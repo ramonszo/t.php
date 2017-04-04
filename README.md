@@ -1,10 +1,10 @@
-t.php
-====================
-A tiny php templating framework based on t.js
+# t.php
 
-`t.php` is a simple solution to interpolating values in an html string.
+A tiny php templating framework based on [t.js](https://github.com/jasonmoo/t.js)
 
-### Features
+**t.php** is a simple solution to interpolating values in an html string.
+
+## Features
  * Simple interpolation: `{{=value}}`
  * Scrubbed interpolation: `{{%unsafe_value}}`
  * Name-spaced variables: `{{=User.address.city}}`
@@ -14,12 +14,12 @@ A tiny php templating framework based on t.js
  * Multi-line templates (no removal of newlines required to render)
  * Render the same template multiple times with different data
 
-### How to use
-
+## How to use
 	$template = new T("<div>Hello {{=name}}</div>");
 	echo $template->parse(array('name' => 'World!'));
 
-For more advanced usage check the [`t_test.php`](https://github.com/ramon82/t.php/blob/master/t_test.php).
+
+For more advanced usage check the [t_test.php](https://github.com/ramon82/t.php/blob/master/t_test.php).
 
 This software is released under the MIT license.
 
