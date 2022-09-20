@@ -23,6 +23,12 @@ For more advanced usage check the [t_test.php](https://github.com/ramon82/t.php/
 
 This software is released under the MIT license.
 
-___
+## Alternatives
 
 [Javascript version](https://github.com/jasonmoo/t.js) maintained by [@jasonmoo](https://github.com/jasonmoo)
+
+---
+
+<a href="https://ramon82.com" target="_blank">
+  <img src="https://utils.ramon82.com/hit.svg?referrer=github.com&title=GitHub%20/%20t.php&location=https://github.com/ramon82/t.php" width="24" height="24" />
+</a>
