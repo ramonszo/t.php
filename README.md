@@ -15,11 +15,11 @@ A tiny php templating framework based on [t.js](https://github.com/jasonmoo/t.js
  * Render the same template multiple times with different data
 
 ## How to use
-	$template = new T("<div>Hello {{=name}}</div>");
-	echo $template->parse(array('name' => 'World!'));
+    $template = new T("<div>Hello {{=name}}</div>");
+    echo $template->parse(array('name' => 'World!'));
 
 
-For more advanced usage check the [t_test.php](https://github.com/ramon82/t.php/blob/master/t_test.php).
+For more advanced usage check the [t_test.php](https://github.com/ramonszo/t.php/blob/master/t_test.php).
 
 This software is released under the MIT license.
 
@@ -29,6 +29,6 @@ This software is released under the MIT license.
 
 ---
 
-<a href="https://ramon82.com" target="_blank">
-  <img src="https://utils.ramon82.com/hit.svg?referrer=github.com&title=GitHub%20/%20t.php&location=https://github.com/ramon82/t.php" width="24" height="24" />
+<a href="https://ramon.codes" target="_blank">
+  <img src="https://ws.ramon.codes/hit.svg?referrer=github.com&title=GitHub%20/%20t.php&location=https://github.com/ramonszo/t.php" width="24" height="24" />
 </a>
